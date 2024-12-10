@@ -113,19 +113,19 @@ h2{
     width:90.99%
 }
 rate-2{
-    width:82%
+    width:75%
 }
 .rate-3{
-    width:70.5%
+    width:50.5%
 }
 .rate-4{
     width:30.39%
 }
 .rate-5{
-    width:60%
+    width:90%
 }
 .rate-6{
-    width:6.8%
+    width:10%
 }
 #skills h2{
     border-bottom: 2px solid var(--color3);
@@ -278,6 +278,9 @@ footer div{
         width:100%;
         justify-content: space-between;
         gap:10px;
+    }
+    form{
+        width:90%;
     }
     h2{
         width:40%;
