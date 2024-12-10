@@ -8,9 +8,16 @@
     --color3:#da70d6;
     --color4:#6b8e23;
 }
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 /* header and navigation bar  */
 header ,footer{
     background:var(--primary-color);
+}
+#navbar a{
+    font-size: 18px;
+    font-weight: bold;
 }
 #navbar a:hover{
     color:var(--color3);
@@ -22,10 +29,81 @@ h2{
 /* home section */
 .home h1{
     color:var(--headings-color);
+    font-size: 32px;
+    font-weight: 700;
 }
 #about h2{
     border-bottom: 2px solid var(--color2);
 }
 #skills h2{
     border-bottom: 2px solid var(--color3);
+}
+#skills p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.home p{
+    font-size: 24px;
+    font-weight: lighter;
+}
+#portfolio h2{
+    border-bottom: 2px solid var(--color1)
+}
+#contact h2{
+    border-bottom: 2px solid var(--color4);
+}
+/* skills-section */
+.rate-percent{
+    background: var(--secondary-color);
+}
+.rate{
+    background: var(--headings-color);
+    color:var(--secondary-color);
+    font-weight: bold;
+}
+p{
+    color:var(--tertiary-color);
+ }
+ /* portfolio section and contact*/
+.description a ,button{
+    background: var(--headings-color);
+    color:var(--secondary-color);
+    transition: transform 0.5s ease, background .3s ease-in-out;
+    font-weight: 600;
+}
+/* contact */
+input{
+    font-size: 16px;
+}
+.description a:hover ,button:hover{
+    background: var(--secondary-color);
+    color:var(--headings-color);
+    transform: scale(1);
+}
+.description h3{
+    color:var(--headings-color);
+}
+.project-tile{
+    box-shadow: 5px 5px 5px #f2f2f2,-5px -5px 5px #f2f2f2;
+    border:1px solid #ccc;
+}
+button{
+    font-size: 16px;
+}
+
+button:hover{
+    border:2px solid var(--headings-color);
+}
+/* footer */
+footer i:hover{
+    background:var(--secondary-color);
+    color:var(--tertiary-color);
+}
+footer i{
+    font-size:32px;
+    font-weight: bold;
+}
+footer div{
+    color: var(--secondary-color);
+
 }
