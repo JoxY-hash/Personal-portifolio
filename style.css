@@ -8,3 +8,7 @@
     --color3:#da70d6;
     --color4:#6b8e23;
 }
+/* header and navigation bar  */
+header ,footer{
+    background:var(--primary-color);
+}
