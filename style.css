@@ -12,3 +12,7 @@
 header ,footer{
     background:var(--primary-color);
 }
+#navbar a:hover{
+    color:var(--color3);
+    text-decoration: underline;
+}
