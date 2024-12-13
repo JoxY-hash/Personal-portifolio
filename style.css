@@ -42,6 +42,7 @@ header ,footer{
 }
 /* navigation links  */
 #navbar{
+    position: relative;
     width:60%;
     padding:10px 0;
     display: flex;
